@@ -99,7 +99,7 @@ SELECT
 FROM
 	customer_loyalty_history
 GROUP BY Gender;
-# LITTLE SUMMARY: Gender percentage are almost the same liek 50/50
+# LITTLE SUMMARY: Gender percentage are almost the same like 50/50
 
 # Education distribution with percentages
 SELECT
