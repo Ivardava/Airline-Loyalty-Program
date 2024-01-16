@@ -56,29 +56,38 @@ Top 3 Provinces/Cities: 48% from Ontario, British Columbia, Toronto, Vancouver, 
 ## Enrollment and Cancellation Trends:
 
 Enrollment Trends: Positively increasing.
+
 Cancellation Trends: 6x increase from 2014 to 2018.
+
 Highest Cancellation Regions: Ontario, British Columbia, Quebec; Toronto, Vancouver, Montreal.
 
 ## Flight Activity Analysis:
 
 Average Flights Booked: Maximum occurred 3 times.
+
 Points Accumulated and Redeemed: Examined variations in points, flights, and distance.
+
 Correlation Analysis: Negligible correlation between dollar cost of points redeemed and CLV or salary.
 
 ## Additional Metrics:
 
 Demographic Characteristics of Top Customers: Female with Bachelor, Male with Bachelor, Male with College.
-Customer Segmentation:
+
+## Customer Segmentation:
 
 Customer Segmentation Analysis: Female/Male with Bachelor's are over 100,000 customers.
+
 Segment Contribution to Revenue: Female/Male with Bachelor's degree are top contributors for dollar redeemed, revenue, and points accumulated.
 
 ## Top 3 Objectives results:
 
 Campaign Impact on Memberships: Net redemption: $16,000, Gross redemption: $352,000, Total cost: $368,000.
+
 Campaign Success by Demographics: Successful in Ontario (Toronto), British Columbia (Vancouver), Quebec (Montreal).
+
 Impact on Booked Flights in Summer 2018: July had the highest demand for bookings.
 
 # Conclusion:
 
-The detailed analysis yields crucial insights, emphasizing a balanced gender distribution, rising enrollments, and notable campaign success in specific regions. Understanding customer segmentation and contribution to revenue enables strategic decision-making for program optimization and targeted marketing initiatives.
+The detailed analysis yields crucial insights, emphasizing a balanced gender distribution, rising enrollments, and notable campaign success in specific regions. 
+Understanding customer segmentation and contribution to revenue enables strategic decision-making for program optimization and targeted marketing initiatives.
