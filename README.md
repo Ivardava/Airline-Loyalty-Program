@@ -1,6 +1,6 @@
-## Airline Loyalty Program Analysis and Visualization
+# Airline Loyalty Program Analysis and Visualization
 
-# Objectives:
+## Objectives:
 
 Data Import and Schema Creation:
 
