@@ -1,31 +1,70 @@
-## Airline Loyalty Program Data Analysis
-This repository presents an analysis of anonymized data from an airline loyalty program. 
+## Airline Loyalty Program Analysis and Visualization
 
-The dataset encompasses two primary tables: customer_flight_activity, detailing flight-related metrics, and customer_loyalty_history, containing demographic and loyalty program information. The analysis was conducted in MySQL, utilizing various queries to extract meaningful insights and address specific questions related to customer behavior, enrollment trends, flight activity, demographic distributions, and campaign impact.
+# Objectives:
 
-## Overview
-Data Structure: The data structure was reviewed and deemed suitable for analysis. Column values with spaces were replaced by underscores for seamless querying in MySQL.
+Data Import and Schema Creation:
 
-Data Import: The data was successfully imported into MySQL tables customer_flight_activity and customer_loyalty_history using the LOAD DATA INFILE function after schema creation.
+Set up the schema.
+Import data into MySQL.
+Create tables for customer flight activity and loyalty history.
+Demographic Analysis:
 
-## Analysis Highlights
-Demographic Analysis: Gender distribution showed an even split (50/50), while bachelor's and college degrees were the most prevalent education levels.
+Explore the distribution of customers by gender, education, and marital status.
+Examine the variation in loyalty cardholders by country, province, and city.
+Enrollment and Cancellation Trends:
 
-Location Distribution: Popular regions among members included Ontario, British Columbia, and Quebec, with Toronto, Vancouver, and Montreal as top cities.
+Analyze enrollment trends over the years.
+Identify patterns in enrollment and cancellations by month and year.
+Explore regions or countries with higher cancellation rates.
+Flight Activity Analysis:
 
-Enrollment and Cancellation Trends: Enrollment numbers gradually increased over six years. Flight cancellation rates notably rose, showing a sixfold trend from 2014 to 2018.
+Determine the average flights booked per loyalty number.
+Investigate variations in points accumulated and redeemed concerning flights or distance.
+Examine the correlation between the dollar cost of points redeemed and cardholder's CLV or salary.
+Additional Metrics:
 
-Flight Activity Analysis: Identified the maximum average flights booked at three occurrences.
+Explore demographic characteristics of customers with the highest flights booked or CLV.
+Identify patterns in flight bookings or card usage based on demographics.
+Customer Segmentation:
 
-Correlation Analysis: Found negligible associations between dollar cost points redeemed and customer CLV or salary.
+Segment customers based on flight activity, loyalty usage, and demographics.
+Identify customer segments contributing significantly to revenue or program success.
+Top 3 Questions:
 
-Customer Segmentation: Highlighted female/male with bachelor's degrees as the top customer segments in terms of total flights and points.
+Investigate the impact of a campaign on program memberships (gross/net).
+Assess campaign adoption success for specific demographics.
+Analyze the impact of the campaign on booked flights during the summer of 2018.
+Quantified Results and Summaries:
 
-Campaign Impact Analysis: The campaign had a notable impact on loyalty program memberships, with a net cost of approximately $16,000 and a gross cost of around $368,000. Notably successful in Ontario-Toronto, British Columbia-Vancouver, and Quebec-Montreal regions.
+Demographic Analysis:
 
-## Conclusion
-The analysis unveiled several critical insights, including demographic distributions, enrollment trends, flight activity patterns, and the campaign's impact on program memberships and bookings. 
+Gender Distribution: 50% Male, 50% Female.
+Education Distribution: 40% Bachelor, 35% College, 25% Other.
+Marital Status Distribution: 58% Married, 26% Single, 16% Divorced.
+Location Distribution: Provinces - Ontario, British Columbia, Quebec; Cities - Toronto, Vancouver, Montreal.
+Top 3 Provinces/Cities: 48% from Ontario, British Columbia, Toronto, Vancouver, Montreal.
+Enrollment and Cancellation Trends:
 
-Despite certain trends and correlations observed, several aspects displayed negligible associations. This repository contains SQL queries utilized for analysis, offering a comprehensive understanding of the airline loyalty program's data landscape.
+Enrollment Trends: Positively increasing.
+Cancellation Trends: 6x increase from 2014 to 2018.
+Highest Cancellation Regions: Ontario, British Columbia, Quebec; Toronto, Vancouver, Montreal.
+Flight Activity Analysis:
 
-For a deeper understanding of the analysis, please refer to the individual SQL queries and their respective findings documented in this repository.
+Average Flights Booked: Maximum occurred 3 times.
+Points Accumulated and Redeemed: Examined variations in points, flights, and distance.
+Correlation Analysis: Negligible correlation between dollar cost of points redeemed and CLV or salary.
+Additional Metrics:
+
+Demographic Characteristics of Top Customers: Female with Bachelor, Male with Bachelor, Male with College.
+Customer Segmentation:
+
+Customer Segmentation Analysis: Female/Male with Bachelor's are over 100,000 customers.
+Segment Contribution to Revenue: Female/Male with Bachelor's degree are top contributors for dollar redeemed, revenue, and points accumulated.
+Top 3 Questions:
+
+Campaign Impact on Memberships: Net redemption: $16,000, Gross redemption: $352,000, Total cost: $368,000.
+Campaign Success by Demographics: Successful in Ontario (Toronto), British Columbia (Vancouver), Quebec (Montreal).
+Impact on Booked Flights in Summer 2018: July had the highest demand for bookings.
+Conclusion:
+
+The detailed analysis yields crucial insights, emphasizing a balanced gender distribution, rising enrollments, and notable campaign success in specific regions. Understanding customer segmentation and contribution to revenue enables strategic decision-making for program optimization and targeted marketing initiatives.
