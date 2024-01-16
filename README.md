@@ -1,6 +1,10 @@
 # Airline Loyalty Program Analysis and Visualization
 
-## Objectives:
+## Top 3 Objectives:
+
+Investigate the impact of a campaign on program memberships (gross/net).
+Assess campaign adoption success for specific demographics.
+Analyze the impact of the campaign on booked flights during the summer of 2018.
 
 ## Data Import and Schema Creation:
 
@@ -35,19 +39,18 @@ Identify patterns in flight bookings or card usage based on demographics.
 Segment customers based on flight activity, loyalty usage, and demographics.
 Identify customer segments contributing significantly to revenue or program success.
 
-## Top 3 Objectives:
-
-Investigate the impact of a campaign on program memberships (gross/net).
-Assess campaign adoption success for specific demographics.
-Analyze the impact of the campaign on booked flights during the summer of 2018.
 
 ## Quantified Results and Summaries:
 
 Demographic Analysis:
 Gender Distribution: 50% Male, 50% Female.
+
 Education Distribution: 40% Bachelor, 35% College, 25% Other.
+
 Marital Status Distribution: 58% Married, 26% Single, 16% Divorced.
+
 Location Distribution: Provinces - Ontario, British Columbia, Quebec; Cities - Toronto, Vancouver, Montreal.
+
 Top 3 Provinces/Cities: 48% from Ontario, British Columbia, Toronto, Vancouver, Montreal.
 
 ## Enrollment and Cancellation Trends:
