@@ -2,11 +2,11 @@
 
 ## Top 3 Objectives:
 
-Investigate the impact of a campaign on program memberships (gross/net).
+1. Investigate the impact of a campaign on program memberships (gross/net).
 
-Assess campaign adoption success for specific demographics.
+2. Assess campaign adoption success for specific demographics.
 
-Analyze the impact of the campaign on booked flights during the summer of 2018.
+3. Analyze the impact of the campaign on booked flights during the summer of 2018.
 
 ## Data Import and Schema Creation:
 
